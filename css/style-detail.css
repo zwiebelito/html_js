@@ -1,0 +1,308 @@
+/*---------------------------------------------------- HEADER -------------------------------------------------------*/
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(226deg, #271A00 0%, rgba(0, 0, 0, 0.98) 44.79%);
+    height: 20vh;
+}
+
+.container_header {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 128px;
+    height: 34px;
+}
+
+.first {
+    margin: 20px 0;
+}
+
+.white_arrow {
+    margin-left: 10px;
+}
+
+nav {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.button_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFAC12;
+    border: none;
+    color: black;
+    font-family: "DMSans", sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+    line-height: 20px;
+    border-radius: 0 18px 0 0;
+    width: 200px;
+    height: 50px;
+    transition: 0.3s;
+}
+
+.button_header:hover{
+    transition: 0.3s;
+    background-color: #f8a200;
+    opacity: 0.8;
+}
+
+.ul_header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+.ul_header > li {
+    list-style: none;
+    margin: 0 40px;
+}
+
+.ul_header > li > a {
+    font-family: 'DMSans', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*---------------------------------------------------- SECTION 1 -----------------------------------------------------*/
+
+#section1 {
+    display: flex;
+    justify-content: space-around;
+    height: 90vh;
+    background: #F5F5F5;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0 32px 34px rgba(0, 0, 0, 0.133714);
+    border-radius: 25px;
+    height: 60vh;
+    width: 30%;
+}
+
+.picture {
+    height: 35vh;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.descrBlock {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.typeOfProperty {
+    margin: 10px 0;
+    font-family: 'DMSans', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.descr {
+    margin-top: 10px;
+    font-family: 'DMSans', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    width: 80%;
+}
+
+.wrapper {
+    height: 60vh;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    border-radius: 25px;
+}
+
+.form-row {
+    margin: 10px;
+}
+
+.form-row > input {
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    width: 20vw;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-row > input:focus{
+    outline: none;
+    border: 1px solid #FFAC12;
+}
+
+.confirm {
+    padding: 0;
+    width: 8vw;
+    height: 5vh;
+    border: none;
+    border-radius: 2px;
+    color: black;
+    background-color: #FFAC12;
+    font-family: "DMSans", sans-serif;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+
+.confirm:hover{
+    transition: 0.3s;
+    background-color: #c48101;
+    opacity: 0.8;
+}
+
+/*------------------------------------------- FOOTER --------------------------------------------------------------*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(226deg, #271A00 0%, rgba(0, 0, 0, 0.98) 44.79%);
+    height: 50vh;
+}
+
+.container_footer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_footer > h2 {
+    color: #FFF;
+    font-size: 42px;
+    font-family: 'DMSans', sans-serif;
+    font-weight: 700;
+}
+
+.container_footer > h2 > span {
+    font-size: 42px;
+    font-family: 'DMSans', sans-serif;
+    font-weight: 700;
+    background-image: linear-gradient(#FFAC12, #C87224);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.invisible_stripe {
+    margin-top: 10px;
+    height: 1px;
+    width: 80%;
+    opacity: 0.1;
+    background: #FFF;
+}
+
+.container_footer2 {
+    margin-top: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap_logo_socials {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.socials {
+    width: 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.google-map > iframe{
+    border-radius: 2px;
+    box-shadow: rgb(173, 137, 3) 0 5px 15px;
+}
+
+/*----------------------------------------------- FORM --------------------------------------------------------------*/
+
+#showBlock {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    height: 60vh;
+}
+
+#showBlock > h2 {
+    margin-top: 100px;
+    font-size: 42px;
+    font-family: 'DMSans', sans-serif;
+    font-weight: 700;
+    background-image: linear-gradient(#FFAC12, #C87224);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#showBlock > h3 {
+    margin: 10px 0;
+    font-size: 24px;
+    font-family: 'DMSans', sans-serif;
+    font-weight: 700;
+    background-image: linear-gradient(#8f5f05, #482200);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.closeButton {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFAC12;
+    border: none;
+    color: black;
+    font-family: "DMSans", sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+    line-height: 20px;
+    border-radius: 0 18px 0 0;
+    width: 200px;
+    height: 50px;
+    transition: 0.3s;
+}
+
+.closeButton:hover {
+    transition: 0.3s;
+    background-color: #f8a200;
+    opacity: 0.8;
+}
+
